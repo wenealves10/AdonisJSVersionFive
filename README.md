@@ -1,9 +1,11 @@
 # AdonisJs CRUD
+
 ## Routes
 
-|    Method | Route     | Handler                |
-|----------:|-----------|------------------------|
-| POST      | /users    | UsersController.create |
-| HEAD, GET | /users    | UsersController.index  |
-| PUT       | /users    | UsersController.update |
-| DELETE    | /user/:id | UsersController.delete |
+|    Method | Route     | Handler                | Name   |
+| --------: | --------- | ---------------------- | ------ |
+|      POST | /users    | UsersController.create | Create |
+| HEAD, GET | /user/:id | UsersController.create | Show   |
+| HEAD, GET | /users    | UsersController.index  | Index  |
+|       PUT | /user/:id | UsersController.update | Update |
+|    DELETE | /user/:id | UsersController.delete | Delete |
