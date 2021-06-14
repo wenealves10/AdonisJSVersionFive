@@ -1,4 +1,4 @@
-# AdonisJSVersionFive
+# AdonisJs CRUD
 ## Routes
 
 |    Method | Route     | Handler                |
